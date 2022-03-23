@@ -41,6 +41,11 @@ body {
 .main {
   padding: 57px 27px;
   color: white;
+  background-image: url(./images/logo.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: top;
+  background-size: 500px;
 }
 
 .main-title {
@@ -60,4 +65,9 @@ body {
   /* padding-block: 10px; */
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.main-facts > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
 }
